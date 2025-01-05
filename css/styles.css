@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+header{
+    background-image: url("https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2023/11/2024-toyota-gr86.jpeg");
+    height: 500px;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #ffffff,
+        0 0 10px #fff,
+        0 0 21px #ffffff,
+        0 0 42px rgb(174, 0, 255),
+        0 0 82px rgb(255, 8, 0),
+        0 0 92px #ff2600,
+        0 0 102px rgb(255, 0, 89),
+        0 0 151px rgb(255, 0, 106);
+  }
+  h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 50px;
+  }
+  .container{
+    margin-top: 20px;
+  }
+  .highlight{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #about,#transmission,#design{
+    margin:50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(214, 32, 32, 0.564);
+    /* margin: 20px; */
+    text-align: center;
+  }
+  #container{
+    margin:0 50px
+  }
